@@ -54,7 +54,7 @@ export const projects = [
     url: "https://mixdrink.netlify.app/",
     github: "https://github.com/guskse/mixDrink",
     title: "MixDrink App",
-    text: "App com chamada à API TheCocktailDB. Criado com React e Styled Components",
+    text: "App com chamada à API TheCocktailDB. Criado com React e Styled Components.",
   },
   {
     id: nanoid(),
@@ -62,7 +62,7 @@ export const projects = [
     url: "https://loginpage-react-project.netlify.app/",
     github: "https://github.com/guskse/Login-page-react",
     title: "Página de Login com React",
-    text: "Aplicativo de login responsivo criado com React. (este projeto fez parte de um curso básico de React)",
+    text: "Aplicativo de login responsivo criado com React.",
   },
   {
     id: nanoid(),
@@ -70,7 +70,7 @@ export const projects = [
     url: "https://unsplash-imagesearch.netlify.app/",
     github: "https://github.com/guskse/Unsplash",
     title: 'App Unsplash Pesquisa de Imagens',
-    text: "Aplicativo criado com React, que utiliza a API do Unsplash para pesquisar imagens",
+    text: "Aplicativo criado com React, que utiliza a API do Unsplash para pesquisar imagens.",
   },
   {
     id: nanoid(),
