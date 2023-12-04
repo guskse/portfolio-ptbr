@@ -23,8 +23,8 @@ const About = () => {
           <p className="text-slate-600 mt-8 leading-loose">
             Quando não estou aprendendo algo novo ou programando, provavelmente
             estou fazendo alguma atividade física (caminhada ou academia) ou
-            tocando violão (Oasis, Wonderwall). Outra coisa que gosto muito de
-            fazer é jogar quando quero relaxar.
+            tocando violão. Outra coisa que gosto muito de
+            fazer é jogar quando quero relaxar. &#128516;
           </p>
         </article>
       </div>
