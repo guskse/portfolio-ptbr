@@ -2,13 +2,14 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 
 //project img
-import backroadsIMG from "./assets/backroads-project.jpg";
 import doclabIMG from "./assets/hospital-website.jpg";
 import loginreactIMG from "./assets/login-react.png";
 import memorygameIMG from "./assets/memory-game.jpg";
 import manausIMG from "./assets/manaus-website.jpg";
 import maplewebsiteIMG from "./assets/maple-website.jpg";
 import loginIMG from "./assets/login-project.jpg";
+import mixdrinkPNG from "./assets/mixdrink.png";
+import unsplash from "./assets/unsplash.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "Início" },
@@ -49,6 +50,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: mixdrinkPNG,
+    url: "https://mixdrink.netlify.app/",
+    github: "https://github.com/guskse/mixDrink",
+    title: "MixDrink App",
+    text: "App com chamada à API TheCocktailDB. Criado com React e Styled Components",
+  },
+  {
+    id: nanoid(),
     img: loginreactIMG,
     url: "https://loginpage-react-project.netlify.app/",
     github: "https://github.com/guskse/Login-page-react",
@@ -57,11 +66,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: backroadsIMG,
-    url: "https://backroads-travelsite.netlify.app/",
-    github: "https://github.com/guskse/backroads-travelsite",
-    title: 'Site de viagens "Backroads"',
-    text: "Site baseado em tema de viagem criado com React.",
+    img: unsplash,
+    url: "https://unsplash-imagesearch.netlify.app/",
+    github: "https://github.com/guskse/Unsplash",
+    title: 'App Unsplash Pesquisa de Imagens',
+    text: "Aplicativo criado com React, que utiliza a API do Unsplash para pesquisar imagens",
   },
   {
     id: nanoid(),
@@ -96,3 +105,4 @@ export const projects = [
     text: "Um dos meus primeiros projetos, criado com HTML e CSS!",
   },
 ];
+
