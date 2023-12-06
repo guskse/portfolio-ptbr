@@ -2,7 +2,7 @@ import { nanoid } from "nanoid";
 import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
 
 //project img
-import doclabIMG from "./assets/hospital-website.jpg";
+import doclabIMG from "./assets/hospital-website.png";
 import loginreactIMG from "./assets/login-react.png";
 import memorygameIMG from "./assets/memory-game.jpg";
 import manausIMG from "./assets/manaus-website.jpg";
