@@ -10,6 +10,7 @@ import maplewebsiteIMG from "./assets/maple-website.jpg";
 import loginIMG from "./assets/login-project.jpg";
 import mixdrinkPNG from "./assets/mixdrink.png";
 import unsplash from "./assets/unsplash.png";
+import gameon from "./assets/gameon.jpg"
 
 export const links = [
   { id: nanoid(), href: "#home", text: "Início" },
@@ -55,6 +56,14 @@ export const projects = [
     github: "https://github.com/guskse/mixDrink",
     title: "MixDrink App",
     text: "App com chamada à API TheCocktailDB. Criado com React e Styled Components.",
+  },
+  {
+    id: nanoid(),
+    img: gameon,
+    url: "https://gameon-store.netlify.app/",
+    github: "https://github.com/guskse/gameOn",
+    title: "GameOn Store",
+    text: "Projeto feito com HTML, CSS e Javascript.",
   },
   {
     id: nanoid(),
