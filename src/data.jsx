@@ -6,9 +6,7 @@ import doclabIMG from "./assets/hospital-website.png";
 import loginreactIMG from "./assets/login-react.png";
 import memorygameIMG from "./assets/memory-game.jpg";
 import manausIMG from "./assets/manaus-website.jpg";
-import maplewebsiteIMG from "./assets/maple-website.jpg";
-import loginIMG from "./assets/login-project.jpg";
-import mixdrinkPNG from "./assets/mixdrink.png";
+import cafewebsiteIMG from "./assets/cafe-website.png"
 import unsplash from "./assets/unsplash.png";
 import gameon from "./assets/gameon.jpg"
 import educa from "./assets/educa.png";
@@ -68,11 +66,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: mixdrinkPNG,
-    url: "https://mixdrink.netlify.app/",
-    github: "https://github.com/guskse/mixDrink",
-    title: "MixDrink App",
-    text: "App com chamada à API TheCocktailDB. Criado com React e Styled Components.",
+    img: cafewebsiteIMG,
+    url: "https://cafe-gus-website.netlify.app/",
+    github: "https://github.com/guskse/coffee-website",
+    title: "Front End de Website com tema Café",
+    text: "Projeto feito com HTML, Javascript e CSS.",
   },
   {
     id: nanoid(),
@@ -105,22 +103,6 @@ export const projects = [
     github: "https://github.com/guskse/mario-memory-game",
     title: "Jogo de Memória Mágica Mario",
     text: "Um projeto de jogo de memória criado com React. Divirta-se!",
-  },
-  {
-    id: nanoid(),
-    img: maplewebsiteIMG,
-    url: "https://maplestory-project.netlify.app/",
-    github: "https://github.com/guskse/maplestory-website",
-    title: "Site MapleStory",
-    text: "Um projeto inicial que criei após concluir um curso web de HTML e CSS para praticar o que aprendi. Inclui uma funcionalidade (simples) de modo noturno.",
-  },
-  {
-    id: nanoid(),
-    img: loginIMG,
-    url: "https://loginpage-project.netlify.app/",
-    github: "https://github.com/guskse/login-project",
-    title: "Página de login (HTML e CSS)",
-    text: "Um dos meus primeiros projetos, criado com HTML e CSS!",
   },
 ];
 
