@@ -10,6 +10,7 @@ import cafewebsiteIMG from "./assets/cafe-website.png"
 import unsplash from "./assets/unsplash.png";
 import gameon from "./assets/gameon.jpg"
 import educa from "./assets/educa.png";
+import houseMarketplace from "./assets/housemarketplace.jpeg"
 
 export const links = [
   { id: nanoid(), href: "#home", text: "Início" },
@@ -40,6 +41,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: houseMarketplace,
+    url: "https://house-marketplace-gc.vercel.app/",
+    github: "https://github.com/guskse/",
+    title: "Website de Venda e Aluguel de Casas (Marketplace)",
+    text: "Site Responsivo (Mobile First) criado com React e Firebase, com deploy no Vercel. (Voltado para telas Mobile)",
+  },
   {
     id: nanoid(),
     img: doclabIMG,
@@ -85,7 +94,7 @@ export const projects = [
     img: unsplash,
     url: "https://unsplash-imagesearch.netlify.app/",
     github: "https://github.com/guskse/Unsplash",
-    title: 'App Unsplash Pesquisa de Imagens',
+    title: 'App de Pesquisa de Imagens',
     text: "Aplicativo criado com React, que utiliza a API do Unsplash para pesquisar imagens.",
   },
   {
