@@ -110,7 +110,7 @@ export const projects = [
     img: memorygameIMG,
     url: "https://mario-memory-game.netlify.app/",
     github: "https://github.com/guskse/mario-memory-game",
-    title: "Jogo de Memória Mágica Mario",
+    title: "Jogo de Memória Mario Bros",
     text: "Um projeto de jogo de memória criado com React. Divirta-se!",
   },
 ];
