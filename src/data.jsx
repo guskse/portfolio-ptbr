@@ -47,7 +47,7 @@ export const projects = [
     url: "https://house-marketplace-gc.vercel.app/",
     github: "https://github.com/guskse/",
     title: "Website de Venda e Aluguel de Casas (Marketplace)",
-    text: "Site Responsivo (Mobile First) criado com React e Firebase, com deploy no Vercel. (Voltado para telas Mobile)",
+    text: "Site Responsivo Mobile First criado com React e Firebase, com deploy no Vercel.",
   },
   {
     id: nanoid(),
