@@ -6,11 +6,12 @@ import doclabIMG from "./assets/hospital-website.png";
 import loginreactIMG from "./assets/login-react.png";
 import memorygameIMG from "./assets/memory-game.jpg";
 import manausIMG from "./assets/manaus-website.jpg";
-import cafewebsiteIMG from "./assets/cafe-website.png"
+import cafewebsiteIMG from "./assets/cafe-website.png";
 import unsplash from "./assets/unsplash.png";
-import gameon from "./assets/gameon.jpg"
+import gameon from "./assets/gameon.jpg";
 import educa from "./assets/educa.png";
-import houseMarketplace from "./assets/housemarketplace.jpeg"
+import houseMarketplace from "./assets/housemarketplace.jpeg";
+import tabelaProdutos from "./assets/tabela_produtos.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "Início" },
@@ -75,6 +76,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: tabelaProdutos,
+    url: "https://produtos-tabela.netlify.app/",
+    github: "https://github.com/guskse/tabela_produtos",
+    title: "Tabela de Produtos",
+    text: "Web app com funcionalidades (print e cálculo de pedidos) voltadas para empresas de venda de produtos",
+  },
+  {
+    id: nanoid(),
     img: cafewebsiteIMG,
     url: "https://cafe-gus-website.netlify.app/",
     github: "https://github.com/guskse/coffee-website",
@@ -94,7 +103,7 @@ export const projects = [
     img: unsplash,
     url: "https://unsplash-imagesearch.netlify.app/",
     github: "https://github.com/guskse/Unsplash",
-    title: 'App de Pesquisa de Imagens',
+    title: "App de Pesquisa de Imagens",
     text: "Aplicativo criado com React, que utiliza a API do Unsplash para pesquisar imagens.",
   },
   {
@@ -114,4 +123,3 @@ export const projects = [
     text: "Um projeto de jogo de memória criado com React. Divirta-se!",
   },
 ];
-
