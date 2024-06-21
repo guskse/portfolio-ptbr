@@ -12,6 +12,8 @@ import gameon from "./assets/gameon.jpg";
 import educa from "./assets/educa.png";
 import houseMarketplace from "./assets/housemarketplace.jpeg";
 import tabelaProdutos from "./assets/tabela_produtos.png";
+import comfyecommerce from "./assets/comfy-ecommerce.png";
+import sitehortifruti from "./assets/site-hortifruti.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "Início" },
@@ -42,6 +44,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: comfyecommerce,
+    url: "https://my-ecommerce-v1.netlify.app/",
+    github: "https://github.com/guskse/",
+    title: "eCommerce Website",
+    text: "Site de eCommerce Responsivo, Mobile First, criado com React e Styled Components.",
+  },
   {
     id: nanoid(),
     img: houseMarketplace,
@@ -76,11 +86,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: tabelaProdutos,
-    url: "https://produtos-tabela.netlify.app/",
-    github: "https://github.com/guskse/tabela_produtos",
-    title: "Tabela de Produtos",
-    text: "Web app com funcionalidades (print e cálculo de pedidos) voltadas para empresas de venda de produtos",
+    img: sitehortifruti,
+    url: "https://tt-hortifruti.netlify.app/",
+    github: "https://github.com/guskse",
+    title: "Site Institucional para uma Distribuidora de Hortifruti",
+    text: "Projeto feito com HTML, Javascript e CSS.",
   },
   {
     id: nanoid(),
@@ -89,6 +99,14 @@ export const projects = [
     github: "https://github.com/guskse/coffee-website",
     title: "Front End de Website com tema Café",
     text: "Projeto feito com HTML, Javascript e CSS.",
+  },
+  {
+    id: nanoid(),
+    img: tabelaProdutos,
+    url: "https://produtos-tabela.netlify.app/",
+    github: "https://github.com/guskse/tabela_produtos",
+    title: "Tabela de Produtos",
+    text: "Web app com funcionalidades (print e cálculo de pedidos) voltadas para empresas de venda de produtos",
   },
   {
     id: nanoid(),
