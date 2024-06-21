@@ -50,7 +50,7 @@ export const projects = [
     url: "https://my-ecommerce-v1.netlify.app/",
     github: "https://github.com/guskse/",
     title: "eCommerce Website",
-    text: "Site de eCommerce Responsivo, Mobile First, criado com React e Styled Components.",
+    text: "Site de eCommerce Responsivo, Mobile First, criado com React e Styled Components. Projeto faz parte dos estudos que realizei em um curso da Udemy.",
   },
   {
     id: nanoid(),
