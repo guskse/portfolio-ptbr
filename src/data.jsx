@@ -79,7 +79,7 @@ export const projects = [
   {
     id: nanoid(),
     img: sitehortifruti,
-    url: "https://tt-hortifruti.netlify.app/",
+    url: "https://gus-hortifruti.netlify.app/",
     github: "https://github.com/guskse",
     title: "Site Institucional para uma Distribuidora de Hortifruti",
     text: "Projeto feito com HTML, Javascript e CSS.",
